@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+  }
+  #map {
+    position: absolute;
+    top: 55px; bottom: 0; left: 0; right: 0;
+  }
+  .dropdown-menu.show {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+  }
+  select#country {
+    border: none;
+    padding: 6px;
+    background: #75cff0;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .country-dropdown-custom{
+    top: -35px;
+  }
+  div#navbarSupportedContent {
+    display: block !important;
+      justify-content: right !important;
+      float: right;
+      text-align: right;
+  }
+}
